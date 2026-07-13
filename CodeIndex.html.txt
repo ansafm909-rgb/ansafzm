@@ -1,0 +1,483 @@
+Code 
+Index.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Ansaf Z M | Cinematic Video Editor, Adventure Storyteller and Aeronautical Engineering Student from Kerala.">
+
+<meta name="keywords" content="Video Editor, CapCut, DaVinci Resolve, Cinematic Editing, Kerala, Adventure, Travel">
+
+<meta name="author" content="Ansaf Z M">
+
+<meta property="og:title" content="Ansaf Z M Portfolio">
+
+<meta property="og:description" content="Stories in Motion. Inspired by Adventure.">
+
+<meta property="og:image" content="assets/logo/logo.png">
+
+<title>Ansaf Z M | Stories in Motion</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet"
+href="css/style.css">
+
+<link rel="stylesheet"
+href="css/responsive.css">
+
+<link rel="stylesheet"
+href="css/animations.css">
+
+</head>
+
+<body>
+
+<div class="cursor"></div>
+<div class="cursor-blur"></div>
+
+<div class="spotlight"></div>
+
+<div id="loader">
+
+    <img src="assets/logo/logo.png" alt="Ansaf Logo">
+
+    <h2>ANSAF Z M</h2>
+
+    <p>Crafting Stories in Motion</p>
+
+</div>
+
+<div class="aurora-bg">
+
+<div class="aurora one"></div>
+
+<div class="aurora two"></div>
+
+<div class="aurora three"></div>
+
+</div>
+
+
+
+<header>
+
+<nav class="navbar">
+
+<div class="menu-toggle">
+
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+<div class="logo">
+
+ANSAF Z M
+
+</div>
+
+<ul class=“nav-links”>
+
+<li><a href=“#home”>Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#portfolio">Portfolio</a></li>
+
+<li><a href="#gallery">Gallery</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero" id=“home”>
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>
+
+Stories in Motion.
+
+</h1>
+
+<p>
+
+Inspired by Adventure.
+
+</p>
+
+<a href="#"
+
+class="btn">
+
+Watch Showreel
+
+</a>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about reveal">
+
+<div class="container">
+
+<div class="about-image">
+
+<img src="assets/images/profile.png" alt="Ansaf Z M">
+
+</div>
+
+<div class="about-text">
+
+<h2>About Me</h2>
+
+<p>
+
+Hi, I'm <span>Ansaf Z M</span>, a video editor and visual storyteller based in Kozhikode, Kerala.
+
+I love creating cinematic travel films, adventure stories and engaging short-form content using CapCut and DaVinci Resolve.
+
+Alongside editing, I'm pursuing Aeronautical Engineering and aspire to work in motorsport aerodynamics.
+
+</p>
+
+<a href="#portfolio" class="btn">
+
+View Portfolio
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+     PORTFOLIO
+========================= -->
+
+<section id="portfolio" class="portfolio reveal ">
+
+    <div class="section-title">
+        <h2>Featured Showreel</h2>
+        <p>A collection of my cinematic edits and visual storytelling.</p>
+    </div>
+
+    <div class="showreel-card">
+
+        <div class="video-placeholder">
+
+            <video
+class="showreel-video"
+autoplay
+muted
+loop
+playsinline>
+
+<source
+src="assets/videos/showreel.mp4"
+type="video/mp4">
+
+</video>
+
+        </div>
+
+        <div class="showreel-info">
+
+            <h3>Main Showreel</h3>
+
+            <p>
+                My featured travel and cinematic editing reel.
+                This section will later contain the embedded Instagram
+                reel or MP4 video.
+            </p>
+
+            <a href="#" class="btn">
+                Watch Showreel
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="portfolio-grid">
+
+<div class="project-card">
+
+<h3>Travel Reels</h3>
+
+<p>Cinematic travel storytelling.</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Adventure Films</h3>
+
+<p>Mountain and trekking edits.</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Photography</h3>
+
+<p>Landscape & Lifestyle.</p>
+
+</div>
+
+</section>
+
+<!-- =========================
+     GALLERY
+========================= -->
+
+<section id="gallery" class="gallery reveal">
+
+    <div class="section-title">
+        <h2>Photography</h2>
+        <p>Moments captured during my adventures.</p>
+    </div>
+
+    <div class="gallery-grid">
+
+        <img src="assets/images/trek1.jpg" alt="Trek">
+
+        <img src="assets/images/trek2.jpg" alt="Travel">
+
+        <img src="assets/images/delhi.jpg" alt="Delhi">
+
+        <img src="assets/images/mountain.jpg" alt="Mountain">
+
+    </div>
+
+</section>
+
+<section id="contact" class="contact reveal">
+
+<div class="section-title">
+
+<h2>Let's Create Together</h2>
+
+<p>Available for collaborations and freelance projects.</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>Ansaf Z M</h3>
+
+<p>📍 Kozhikode, Kerala</p>
+
+<p>📧 ansafm909@gmail.com</p>
+
+<p>📱 Instagram: @ansaf.zxm</p>
+
+<a href="mailto:ansafm909@gmail.com" class="btn">
+
+Send Email
+
+</a>
+
+</div>
+
+</section>
+
+
+
+<section class="journey reveal">
+
+<h2>My Journey</h2>
+
+<div class="timeline">
+
+<div class="box">
+
+<h3>📍 Kozhikode</h3>
+
+<p>Where my journey began.</p>
+
+</div>
+
+<div class="box">
+
+<h3>🎬 Video Editing</h3>
+
+<p>Creating cinematic stories.</p>
+
+</div>
+
+<div class="box">
+
+<h3>🥾 Adventure</h3>
+
+<p>Trekking the Himalayas and exploring nature.</p>
+
+</div>
+
+<div class="box">
+
+<h3>✈ Future</h3>
+
+<p>Motorsport Aerodynamics & Creative Films.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="skills reveal">
+
+<h2>Skills</h2>
+
+<div class="skill-grid">
+
+<div class="skill-card">
+
+🎬
+
+<h3>CapCut</h3>
+
+</div>
+
+<div class="skill-card">
+
+🎨
+
+<h3>DaVinci Resolve</h3>
+
+</div>
+
+<div class="skill-card">
+
+📸
+
+<h3>Photography</h3>
+
+</div>
+
+<div class="skill-card">
+
+🏔
+
+<h3>Adventure Storytelling</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="stats reveal">
+
+<div class="stat">
+
+<h2 class=“counter” data-target=“50”>0</h2>
+
+<p>Videos Edited</p>
+
+</div>
+
+<div class="stat">
+
+<h2 class=“counter” data-target=“15”>0</h2>
+
+<p>Travel Films</p>
+
+</div>
+
+<div class="stat">
+
+<h2 class=“counter” data-target=“3”>0</h2>
+
+<p>Mountain Adventures</p>
+
+</div>
+
+<div class="stat">
+
+<h2 class=“counter” data-target=“100”>0</h2>
+
+<p>Passion</p>
+
+</div>
+
+</section>
+
+
+
+
+<div class="lightbox">
+
+    <span class="close-lightbox">&times;</span>
+
+    <img src="" alt="" id="lightbox-image">
+
+</div>
+
+<button id="topBtn">
+↑
+</button>
+
+<footer class="footer">
+
+<h2>ANSAF Z M</h2>
+
+<p>
+
+Stories in Motion.
+
+Inspired by Adventure.
+
+Crafted with Passion.
+
+</p>
+
+<p>
+
+© 2026 All Rights Reserved
+
+</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
